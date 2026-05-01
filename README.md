@@ -4,4 +4,4 @@ Hello guys!! I am Ishan, an engineering student who has been coding for a few ye
 This repo is where I am collecting all the programs I have written throughout my journey - from basics to the more complex stuff.
 
 Still uploading everything gradually - work in progress:)
-thank you
+Thank you:)
