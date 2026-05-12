@@ -2,7 +2,6 @@
 mathematics and computer science where the sum of the factorials of its digit equals the original number
 Example of strong number are: 145 as 1!+4!+5! = 145 itself )*/
 
-
 #include<stdio.h>
 int main()
 {
@@ -27,4 +26,5 @@ int main()
     printf("The given number %d is a strong number as it's sum of its digit's factorial is also %d \n",n,sum);
     else
     printf("The given number %d is not a strong number as it's sum of its digit's factorial is %d \n",n,sum);
+    return 0;
 }
