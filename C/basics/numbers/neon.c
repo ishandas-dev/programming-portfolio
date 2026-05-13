@@ -1,4 +1,7 @@
-/*To check the given number is Neon number or not using C*/
+/*To check the given number is Neon number or not using C (A neon number is a special integer where 
+the sum of the digits of its square equals the original number.)
+Example of neon number is: 9 as 9^2 = 81 and 8+1=9.*/
+
 #include<stdio.h>
 int main()
 {

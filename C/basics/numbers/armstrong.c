@@ -1,4 +1,8 @@
-/* To check the given number is armstrong number or not using C*/
+/* To check the given number is armstrong number or not using C (An Armstrong number (or narcissistic number) 
+is a positive integer that equals the sum of its own digits, each raised to the power of the total number of digits
+Example of Armstrong number are : 153 as (1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153)
+                                  370 as (3^3 + 7^3 + 0^3 = 27 + 343 + 0 = 370)*/
+
 #include<stdio.h>
 #include<math.h> //including this header file to use pow function
 int main()
@@ -28,4 +32,5 @@ int main()
     printf("The given number %d is armstrong number \n",n);
     else
     printf("The given number %d is not armstrong number \n",n);
+    return 0;
 }

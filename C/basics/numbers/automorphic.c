@@ -1,4 +1,8 @@
-/*To check the given number is automorphic number or not using C*/
+/*To check the given number is automorphic number or not using C (An automorphic number (or circular number) 
+is a natural number whose square ends in the same digits as the number itself.
+Example of Automorphic number are : 5^2 = 25 (Here 5 is the last digit in 25)
+                                    76^2= 5776 (Here 76 is the last digit in 5776 )*/
+
 #include<stdio.h>
 int main()
 {
@@ -25,4 +29,5 @@ int main()
     printf("The given number %d is an automorphic number as it's square is %d\n",n,square);
     else
     printf("The given number %d is not an automorphic number as it's square is %d\n",n,square);
+    return 0;
 }

@@ -1,4 +1,10 @@
-/* To check the given number is prime or composite number using C*/*/
+/* To check the given number is prime or composite number using C (Prime numbers are natural numbers
+ greater than 1 with exactly two factors (1 and themselves), 
+ Example of prime numbers are: 2, 3, 5, and 7. 
+ while Composite numbers are natural numbers greater than 1 with more than two factors
+ Example of Composite numbers are: 4, 6, 8, and 9. 
+The number 1 is considered neither prime nor composite.)*/
+
 #include<stdio.h>
 int main()
 {

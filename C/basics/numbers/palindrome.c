@@ -1,4 +1,7 @@
-/* To check the given number is palindrome number or not using C*/
+/* To check the given number is palindrome number or not using C (A palindromic number is a number
+ that remains the same when its digits are reversed, reading the same forwards and backwards.)
+ Example of palindrome number are: 121,3443 */
+
 #include<stdio.h>
 int main()
 {
