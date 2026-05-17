@@ -11,10 +11,10 @@
     printf("The fibonacci is \n");
     for(i=0;i<n;i++)
     {
-        printf("%d,",a);
-        c=a+b;
-        a=b;
-        b=c;
-        
+        printf("%d ",a); //printing the value of a in the beginning of the loop
+        c=a+b;//adding the value of a and b varible respectively in c
+        a=b;  
+        b=c;     
     }
+    return 0;
  }
