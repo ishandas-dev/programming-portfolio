@@ -1,3 +1,11 @@
+/*To write a program in c to print triangular number pattern or a sequential number pyramid like as shown below
+example : if the number of rows is entered 5 by the user then output should be :
+1
+12
+123
+1234
+12345*/
+
 #include<stdio.h>
 int main()
 {
