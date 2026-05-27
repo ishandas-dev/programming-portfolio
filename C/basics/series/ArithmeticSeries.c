@@ -15,12 +15,12 @@ int main()
     printf("Enter the difference between the numbers \n");
     scanf("%d",&d);
 
-    
-    for(i=a;i<=a+(n-1)*d;i=i+d)
+    //using loop to print the arithmetic series
+    for(i=a;i<=a+(n-1)*d;i=i+d) //loop from first term to last term, increment by common difference
     {
         printf("%d ",i);
     }
-    sum = (n/2.0)*(2.0*a+(n-1)*d);
+    sum = (n/2.0)*(2.0*a+(n-1)*d); //calculating the sum of arithmetic series by using its formula
     printf(" The sum of these series is %f",sum);
     return 0;
 } 
