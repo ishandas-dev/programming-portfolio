@@ -21,6 +21,6 @@ int main()
         printf("%d ",i);
     }
     sum = (n/2.0)*(2.0*a+(n-1)*d); //calculating the sum of arithmetic series by using its formula
-    printf(" The sum of these series is %f",sum);
+    printf("\nThe sum of this arithmetic series is %f",sum);
     return 0;
 } 
