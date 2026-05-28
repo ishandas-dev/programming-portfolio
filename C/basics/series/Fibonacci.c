@@ -13,8 +13,8 @@
     {
         printf("%d ",a); //printing the value of a in the beginning of the loop
         c=a+b;//adding the value of a and b varible respectively in c
-        a=b;  
-        b=c;     
+        a=b;  //putting the current value of b variable into a variable
+        b=c;  //putting the current value of c variable into b variable
     }
     return 0;
  }
