@@ -5,7 +5,7 @@
 #include<stdio.h>
 int main()
 {
-    int row=0,col=0,i,j;
+    int row=0,i,j;
     printf("Enter the row \n");
     scanf("%d",&row);
 
