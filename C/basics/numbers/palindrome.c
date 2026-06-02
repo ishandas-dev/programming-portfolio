@@ -9,6 +9,8 @@ int main()
     printf("Enter the number \n");
     scanf("%d",&n);
     temp=n; //using temporary variable to save the original number 
+
+    //using the loop to reverse the given number
     while(temp>0)
     {
         digit=temp%10; //extracting the last digit of the number
