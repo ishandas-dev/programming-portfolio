@@ -1,4 +1,5 @@
-//learning casting;
+//Learning type casting in C++
+
 #include <iostream>
 using namespace std;
 int main()
