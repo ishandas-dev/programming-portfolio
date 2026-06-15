@@ -16,7 +16,7 @@ int main()
     cout << "My age currently is " << age <<"\n";
     cout << "Size of age variable is which is in integer data type is " << sizeof(age) << "\n";
 
-    cout << "Value of grade is " << grade <<"\n";
+    cout << "Value of grade is " << grade <<"\n";W
     cout << "Size of grade variable is  " << sizeof(grade) <<"\n";
 
     cout << "Value of gravitational constant which is in float data type is " << GC << "\n";
