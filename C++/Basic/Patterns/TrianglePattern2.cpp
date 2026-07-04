@@ -10,8 +10,8 @@ Example: row = 4
 using namespace std;
 int main()
 {
-    int i,j,row=0,num=1;
-    cout << "Enter the number of rows \n";  //num tracks the current row number to print
+    int i,j,row=0,num=1;  //num tracks the current row number to print
+    cout << "Enter the number of rows \n";  
     cin >> row;
     for(i=1;i<=row;i++)  //outer loop runs for each row
     {
