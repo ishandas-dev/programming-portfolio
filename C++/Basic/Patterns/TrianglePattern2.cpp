@@ -17,7 +17,7 @@ int main()
     {
         for(j=1;j<=i;j++)  //inner loop prints num exactly i times in row i
         {
-            cout << num;
+            cout << num << " ";
         }
         num++;   //move to next number after finishing current row
         cout << "\n";
