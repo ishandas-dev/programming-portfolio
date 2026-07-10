@@ -1,29 +1,31 @@
-/*Take a number 'row' as input. Print a pattern where each row has increasing leading spaces from 
-the left and decreasing repetitions of the row number, with no spaces between the numbers.
- Example: row = 4
-   1111
-    222
-     33
-      4 */
+/*Write a program to print a pattern using alphabets, where each row contains letters continuing 
+sequentially from where the previous row left off (not reset to 'A' each time).
+Example (rows = 4):
+A
+B C
+D E F
+G H I J */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int i,j,row=0;
+    int i,row=0,j;
+    char letter='A';  //starting alphabet 
     cout << "Enter the number of rows\n";
     cin >> row;
-    for(i=1;i<=row;i++)  //outer loop runs for each row
+    if(row>26||row<1)
     {
-        for(j=1;j<i;j++)  //print leading spaces increases by 1 each row
-        {
-            cout << " ";
-        }
-        for(j=1;j<=row-i+1;j++)  //print row number (row - i + 1) times decreases each row
-        {
-            cout << i ;   //no space here, numbers stay together
-        }
-        cout << "\n";
+        cout << "Invalid input!! please enter between 1 to 26\n";
+        return 0;
     }
-    return 0;
+    for(i=1;i<=row;i++)    //outer loop controls the row number
+    {
+        for(j=1;j<=i;j++)  //inner loop prints 'i' letters, continuing the sequence
+        {
+            cout << letter << " ";
+            letter=(int)letter+1;  //move to the next alphabet in sequence
+        }
+        cout << "\n";   //move to next line after each row=
+    }
 }
