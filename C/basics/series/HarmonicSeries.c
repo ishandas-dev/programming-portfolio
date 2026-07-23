@@ -6,13 +6,19 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
-    float sum;
+    int i,n,a=1;
+    float sum=0.0;
     printf("Enter the value of n \n");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        sum=sum+(1.0/i);//using loop variable i which will change its value in every loop
+        printf("%d/%d",a,i);
+        if(i<n)
+        {
+            printf(" + ");
+        }
+        sum=sum+(1.0/i); //using loop variable i which will change its value in every loop
     }
-     printf("%f \n",sum);
+     printf("\nThe sum of this harmonic series is %f \n",sum);
+     return 0;
 }
