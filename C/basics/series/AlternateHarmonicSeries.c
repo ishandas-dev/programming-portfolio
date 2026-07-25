@@ -9,6 +9,26 @@ int main()
     float total=0.0;
     printf("Enter the value of n \n");
     scanf("%d",&n);
+    printf("The given series is:\n");
+    for(i=1;i<=n;i++)   
+    {
+        if(i%2==0)
+        {
+            printf(" 1/%d ",i);
+            if(i<n)
+            {
+               printf(" + ");
+            }
+        }
+        else
+        {
+            printf(" 1/%d ",i);
+            if(i<n)
+            {
+                printf(" - ");
+            }
+        }
+    }
     for(i=1;i<=n;i++)
     {
         if(i%2==0)
@@ -16,7 +36,7 @@ int main()
         else
         total=total+(1.0/i);
     }
-    printf("The sum of Alternate harmonic series for given number %d is %f",n,total);
+    printf("\nThe sum of Alternate harmonic series for given number %d is %f",n,total);
     return 0;
 }
     
