@@ -1,6 +1,7 @@
-/*The alternating harmonic number is the partial sum of the alternating harmonic series. It represents
-the sum of the reciprocals of the first n natural numbers, with alternating positive and negative
-signs like (1 - 1/2 + 1/3 - 1/4 till 1/n).*/
+/*Write a program to find the alternating harmonic number, which is the partial sum of the 
+alternating harmonic series. It represents the sum of the reciprocals of the first n natural numbers, with
+alternating positive and negative signs, like:
+(1 - 1/2 + 1/3 - 1/4 ... till 1/n).*/
 
 #include<stdio.h>
 int main()
@@ -10,25 +11,29 @@ int main()
     printf("Enter the value of n \n");
     scanf("%d",&n);
     printf("The given series is:\n");
+
+    //print the series with correct alternating signs
     for(i=1;i<=n;i++)   
     {
         if(i%2==0)
         {
-            printf(" 1/%d ",i);
-            if(i<n)
+            printf(" 1/%d ",i); 
+            if(i<n)   //checking till the last term
             {
-               printf(" + ");
+               printf(" + "); //giving the sign
             }
         }
         else
         {
             printf(" 1/%d ",i);
-            if(i<n)
+            if(i<n)  //checking till the last term
             {
-                printf(" - ");
+                printf(" - ");  //giving the sign
             }
         }
     }
+
+    //compute the actual sum: subtract for even terms, add for odd terms
     for(i=1;i<=n;i++)
     {
         if(i%2==0)
