@@ -10,7 +10,7 @@ public class GreatestSmallest
         System.out.println("Enter the value of a and b respectively");
         a=in.nextInt();
         b=in.nextInt();
-        if(a>b)
+        if(a>b) //checking the greatest and smallest number
         {
             System.out.println("The greatest number is a whose value is "+a);
             System.out.println("The smallest number is b whose value is "+b);
