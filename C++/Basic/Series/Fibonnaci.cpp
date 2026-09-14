@@ -15,7 +15,7 @@
         cout << a; //printing the value of a in the beginning of the loop
         if(i<num)
         {
-        cout << ",";
+        cout << ","; //printing the commas after every number
         }
         c=a+b;//adding the value of a and b varible respectively in c
         a=b;  //putting the current value of b variable into a variable
