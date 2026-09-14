@@ -1,3 +1,5 @@
+/*Learning how to input a number (or anything ) in a program*/
+
 #include <iostream>
 using namespace std;
 int main()
