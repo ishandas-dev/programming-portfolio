@@ -1,8 +1,13 @@
-# C – Basics
+# C Basics
 
-Early C programs covering patterns, number logic, and series.
+Fundamental C programs covering number properties, series, and patterns.
 
-- `Patterns/` – triangle pattern printing
-- `numbers/` – Armstrong, Automorphic, Digit extraction, Even-Odd, Multiplication table, Neon, Perfect, Prime, Strong, Palindrome, Spy numbers
-- `series/` – Arithmetic, Geometric, Fibonacci, Tribonacci, Harmonic, Alternate Harmonic, Cube, Square series, Floyd's Triangle, generic Number Pattern
-- `pointer.c` – basic pointer practice
+## Compile & Run
+```bash
+gcc filename.c -o output && ./output
+```
+
+## Topics Covered
+- **Numbers** — Armstrong, Palindrome, Prime, Perfect, Spy, Strong, Neon, Automorphic
+- **Series** — Fibonacci, Tribonacci, Arithmetic, Geometric, Harmonic, Alternate, Square, Cube
+- **Patterns** — Floyd's Triangle, Number Pattern
