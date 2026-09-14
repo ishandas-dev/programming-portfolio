@@ -1,4 +1,4 @@
-/*Printing all the numbers till num in c++*/
+/*Printing all the numbers using for loop till num in c++*/
 
 #include<iostream>
 using namespace std;
@@ -15,7 +15,7 @@ int main()
         cout << i ; //printing the number
         if(i!=num)  //checking if i is not equal to num
         {
-        cout << " , "; //giving comma after every digit
+        cout << " , "; //giving comma after every number
         }
     }
     return 0;
