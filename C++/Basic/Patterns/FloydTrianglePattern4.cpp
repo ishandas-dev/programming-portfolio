@@ -7,7 +7,7 @@ Example: row = 4
    7 8 9 10 */
 
 #include <iostream>
-using namespace std;
+using namespace std;    
 int main()
 {
     int i,j,row=0,num=1;  //num increments continuously across all rows
