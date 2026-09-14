@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     int n,i;
+    int ch;
     cout << "Enter the size of the array \n";
     cin >> n;
     int arr[n];
@@ -14,6 +15,12 @@ int main()
     {
         cin >> arr[i];//entering the elements in the array
     }
+    cout << "To find the largest number in the array choose '1' \nor to find the smallest number in the array choose '2' \n";
+    cin >> ch;
+    switch(ch)
+    {
+    case 1:
+    {
     int max = arr[0];  //assume first element is the largest to start
     for(i=0;i<n;i++)
     {
@@ -22,6 +29,26 @@ int main()
            max=arr[i];   //update max whenever a bigger element is found
         }
     }
-    cout << "The largest number in the array is " << max;
+    cout << "The largest number in the array is " << max << "\n";
+    break;
+    }
+    case 2:
+    {
+        int min = arr[0];  //assume first element is the largest to start
+        for(i=0;i<n;i++)
+    {
+        if(arr[i]<min)
+        {
+           min=arr[i];   //update max whenever a bigger element is found
+        }
+    }
+    cout << "The smallest number in the array is " << min << "\n";
+    break;
+    }
+    default:
+    {
+        cout << "Wrong choice choose again \n";
+    }
     return 0;
+}
 }
