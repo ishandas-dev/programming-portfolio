@@ -15,6 +15,21 @@ struct node{
 //Function for inserting a new node at a given position (0-based) in the list
 struct node* InsertAtPosition(struct node* head,int value,int pos)      //takes the current head, the value and the position, returns the head of the updated list
 {
+    //count the nodes of the list, to know which positions are valid
+    struct node *count=head;
+    int length=0;
+    while(count!=NULL)
+    {
+        length++;   //keeping track of all the position of the LinkList
+        count=count->next;
+    }
+
+    //valid positions are 0 to length
+    if(pos<0||pos>length)
+    {
+        printf("The given position is not in our LinkList so our Linklist remains the same\n");
+        return head;        //nothing is inserted, so the list stays unchanged
+    }
     struct node* newnode=(struct node*)malloc(sizeof(struct node));
     newnode->data=value;      //store the given value in the new node
     if(pos==0)
