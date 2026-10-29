@@ -5,7 +5,7 @@ This repo is where I am collecting all the programs I have written in languages 
 
 ## Structure
 
-- `C/` – basic and intermediate C programs (patterns, series, numbers, arrays, pointers, linked lists, structures, dynamic memory allocation)
+- `C/` – basic and intermediate C programs (patterns, series, numbers, arrays, pointers, linked lists, structures, dynamic memory allocation, queues)
 - `C++/` – basic and intermediate C++ programs (syntax practice, patterns, series, numbers, arrays)
 - `Java/` – basic Java programs (numbers, series)
 
