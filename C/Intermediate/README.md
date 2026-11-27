@@ -4,4 +4,6 @@
 - `Pointers/` – swap using pointers
 - `Structures/` – student record using struct
 - `DynamicMemoryAllocation/` – malloc practice
-- `Linklist/` – singly linked list insertion and traversal
+- `Linklist/` – single, circular and doubly linked list operations
+- `Queues/` – linear, circular and double ended queues
+- `BinaryTree/` – binary tree and BST operations, traversals
